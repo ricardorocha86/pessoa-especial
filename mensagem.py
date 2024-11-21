@@ -5,8 +5,8 @@ openai_api_key = st.secrets['OPENAI-APIKEY']
 client = OpenAI(api_key=openai_api_key)
 
 st.set_page_config(
-    page_title="Pessoa Especial",
-    page_icon= '💖',
+    page_title="Aluno Especial",
+    page_icon= '🎈',
     layout="centered")
 
 
@@ -24,15 +24,16 @@ Quando estiver preparado(a), clique no botão abaixo!
 
 
 instrucoes = """
-Você é um assistente encarregado de gerar uma mensagem motivadora.
+Você é um assistente encarregado de gerar uma mensagem motivadora para meus alunos.
 Siga as seguintes instruções:
+- crie uma mensagem de motivação aos estudos
 - Faça uma mensagem com 35 a 45 palavras
 - Seja sempre positivo e inspirador 
 - Use formatação (negrito, italicos, emojis)
 - Use um tom alegre. Transmita felicidade em sua mensagem. 
-- Motive o aluno a estudar e avise que o curso de Streamlit já está todo no ar.
 - Use frases que enalteçam o aluno. 
 - Se der, seja engraçado também!
+- Termine a mensagem lembrando que o curso de Streamlit já está todo no ar.
 """
 
 def gerar_mensagem(prompt):
