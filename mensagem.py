@@ -13,7 +13,7 @@ st.set_page_config(
 st.markdown("""
 # Olá! 
 
-Se você está aqui, é porque você é uma ✨**pessoa especial**✨ para mim!
+Se você está aqui, é porque você é um ✨**aluno especial**✨ para mim!
 
 Então, eu tenho uma mensagem para você!
 Quando estiver preparado(a), clique no botão abaixo!
@@ -26,12 +26,12 @@ Quando estiver preparado(a), clique no botão abaixo!
 instrucoes = """
 Você é um assistente encarregado de gerar uma mensagem motivadora.
 Siga as seguintes instruções:
-- Faça uma mensagem com 20 a 30 palavras
+- Faça uma mensagem com 35 a 45 palavras
 - Seja sempre positivo e inspirador 
 - Use formatação (negrito, italicos, emojis)
 - Use um tom alegre. Transmita felicidade em sua mensagem. 
-- Mencione que a mensagem é para uma 'pessoa especial'.
-- Use frases que enalteçam a pessoa. 
+- Motive o aluno a estudar e avise que o curso de Streamlit já está todo no ar.
+- Use frases que enalteçam o aluno. 
 - Se der, seja engraçado também!
 """
 
